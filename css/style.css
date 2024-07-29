@@ -1,0 +1,125 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    background-image: url(/img/earth.jpg);
+    font-size: 23px;
+    font-family: sans-serif;
+
+
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    margin-top: 5px;
+}
+
+.navbar a {
+    float: left;
+    padding: 19px;
+    color: white;
+    text-decoration: none;
+    width: 25%;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+    transition: all 3s ease;
+}
+
+
+.btn {
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    color: white;
+    width: 120px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background-color: rgb(187, 187, 187);
+    color: black;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+}
+
+.grid-item1 {
+    margin-left: 200px;
+    margin-top: 200px;
+    width: 43%;
+    padding: 20px;
+    font-size: 30px;
+    display: grid;
+}
+
+.grid-item1 img{
+    display: grid;
+    filter: invert();
+
+}
+
+.grid-item1 input{
+    border-radius: 10px;
+    margin-left: -50px;
+    padding: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+    width: 60%;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    
+}
+
+.grid-item1 button{
+    margin-left: -10px;
+    border-radius: 10px;
+    border: 1px solid whitesmoke;
+    width: 30%;
+    font-weight: bold;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    margin-top: 20px;
+    
+}
+
+.grid-item1 button:hover{
+    background-color: rgb(187, 187, 187);
+    color: black;
+}
+
+.grid-item2{
+    margin-left: 200px;
+    margin-top: 200px;
+}
+
+.terms{
+    font-weight: 500;
+    font-size: 70px;
+
+}
+
+.grid-item2 p{
+    font-size: 20px;
+    width: 90%;
+    margin-left: -100px;
+    margin-top: 30px;
+}
+
+.para{
+    font-weight: bolder;
+    text-decoration: underline;
+}
